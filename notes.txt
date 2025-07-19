@@ -1,0 +1,12 @@
+How to Pull Latest Changes from GitHub Main Branch
+===============================================
+
+1. Open your terminal and navigate to your project directory:
+   cd /Users/bapbap23/Desktop/Anime-Data-Analysis
+
+2. Pull the latest changes from the main branch on GitHub:
+   git pull origin main
+
+Notes:
+- Make sure you have committed or stashed any local changes before pulling to avoid conflicts.
+- 'origin' is the default name for your remote repository. If your remote has a different name, replace 'origin' with that name. 

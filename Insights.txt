@@ -1,0 +1,5 @@
+Overall Notes
+- weak correlation between 
+
+
+- The correlation analysis shows that there is essentially no linear relationship between the number of episodes and the rating of TV anime. This suggests that, on average, longer anime series are just as likely to receive high ratings as shorter ones.
