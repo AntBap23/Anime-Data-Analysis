@@ -3,3 +3,19 @@ Overall Notes
 
 
 - The correlation analysis shows that there is essentially no linear relationship between the number of episodes and the rating of TV anime. This suggests that, on average, longer anime series are just as likely to receive high ratings as shorter ones.
+
+Anime Ratings OLS Regression Insights
+====================================
+
+- R-squared: 0.257 (about 25.7% of the variance in ratings is explained by the model)
+- All predictors (members, episodes, genre_count) are statistically significant (p < 0.001)
+- Coefficients:
+    - members: 0.00000539 (tiny positive effect)
+    - episodes: 0.0012 (small positive effect)
+    - genre_count: 0.2026 (moderate positive effect)
+- Only genre_count has a substantial effect size; members and episodes have minimal practical impact
+- The model is statistically significant overall, but much of the variation in ratings is unexplained (modest R-squared)
+- Condition number is high (1.24e+05), suggesting possible multicollinearity or numerical issues
+- Residuals are not perfectly normal, but this is common with large datasets
+
+Summary: The number of genres an anime has is the strongest predictor among the variables tested, while members and episodes have only minor effects on rating. There are likely other important factors not included in this model.
